@@ -1,13 +1,10 @@
-Dumps decrypted iPhone Applications to a file - better solution than those GDB scripts for non working GDB versions
-(C) Copyright 2011-2014 Stefan Esser
-
+This is a fork of Stefan Esser's original source code. Modification allows it to work on iOS 9.0+ and for 64 bit. 
 
 Compile:
 
 First adjust the Makefile if you have a different iOS SDK installed.
 
 And then just: make
-
 
 Usage:
 
@@ -30,3 +27,5 @@ DISCLAIMER: This tool is only meant for security research purposes, not for appl
 [+] Copying the not encrypted remainder of the file
 [+] Closing original file
 [+] Closing dump file
+
+Original code is a copyright of Stefan Esser
